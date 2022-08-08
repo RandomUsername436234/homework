@@ -9,6 +9,7 @@
     --main-bg: #4a4e4d;
     --top-menu-bg: #0e9aa7;
     --sub-menu-bg: #3da4ab;
+    --sub-menuE1-bg:var(--sub-menuE1-bg)
   }
   
   body {
@@ -42,4 +43,31 @@
   
   #top-menu a:hover {
     background-color: var(--sub-menu-bg);
+    property (100%)
+  }
+  header, #top-menu {
+    position: (relative);
+  }
+  
+  #top-menu {
+    z-index: 20;
+  }
+  
+  #sub-menu-E1 {
+    width: 100%;
+    z-index: 10;
+    height: 100%;
+    transition: top 0 ease-out;
+  }
+  
+  #sub-menu a:hover {
+    background-color: var(--sub-menu-bg);
+    color: var(--sub-menu-bg);
+    flex-around
+    :position:  (absolute);
+  }
+  
+  nav a.active {
+    background-color: var(--sub-menu-bg);
+    color: var(--main-bg);
   }
