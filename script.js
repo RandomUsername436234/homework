@@ -1,18 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Where is the ISS</h1>
+let pos = {
+lat: (-45)
+lon: 112
+};
 
-    <p1>latitude: <span id="lat"></span><br>  </p1>
-    <p1>longitude: <span id="lon"></span><br>  </p1>
-<script src="script.js"></script>
+
 getISS();
 let pos = {
     lat: (-45)
@@ -30,8 +21,3 @@ async function getISS() {
     console.log (data);
     console.log (data.latitude);
     console.log (data.longitude);
-
-
-}
-</body>
-</html>
