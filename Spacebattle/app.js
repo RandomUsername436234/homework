@@ -1,53 +1,62 @@
-function testFunction() {
-  console.log ("testFunction")  
-}
-testFunction()
+console.log("uss Schwarzenegger");
 
-// Make array of 5 elements, a function to log each element and a way to run the function
-const array = [ "blue" , "Red" , "purple", "yellow", "orange" ];
-function elementfunction(informationtotakein){
-    console.log(informationtotakein);
+console.log("enemieShip#1");
 
+console.log("enemieShip#2");
 
-}
-elementfunction(array)
+console.log("enemieShip#3");
 
-let array = [ "Blue" , "sky" ];
-function blueElement(bluearrayelement){
-    console.log(bluearrayelement);
+console.log("enemieShip#4");
 
+console.log("enemieShip#5");
 
-}
-blueElementfunction(array)
+console.log("enemieShip#6");
 
-let array = [ "Red" , "Roses" ];
-function RedElement(Redarrayelement){
-    console.log (Redarrayelement);
+function ussSchwarzenegger(){
+    Shipname = "ussSchwarzenegger"
+    Hull = 20
+    Firepower = 5
+    Acurracy = .7
+};
 
+function eShip1() {
+    Shipname = eShip1
+    Hull = 3
+    Firepower = 4
+    Acurracy = .8
+};
 
-}
-RedElementfunction(array)
+function eShip2() {
+    Shipname = eShip2
+    Hull = 3
+    Firepower = 2
+    Acurracy = .8
+};
 
-let array = [ "purple" , "turtle" ];
-function purpleElement(purplearrayelement){
-    console.log(purplearrayElement);
+function eShip3() {
+    Shipname = eShip3
+    Hull = 3
+    Firepower = 2
+    Acurracy = .6
+};
 
+function eShip4() {
+    Shipname = eShip4
+    Hull = 6
+    Firepower = 4
+    Acurracy = .6
+};
 
-}
-purpleElementfunction(array)
+function eShip5() {
+    Shipname = eShip5
+    Hull = 6
+    Firepower = 2
+    Acurracy = .8
+};
 
-let array = [ "yellow" , "flowers" ];
-function yellowElement(yellowarrayelement){
-    console.log(yellowarrayelement);
-
-
-}
-yellowElementfunction(array)
-
-let array = [ "orange" , "fruit" ];
-function orangeElement (orangearrayelement){
-    console.log(orangearrayelement);
-
-
-}
-orangeElementfunction(array)
+function eShip6() {
+    Shipname = eShip6
+    Hull = 3
+    Firepower = 4
+    Acurracy = .6
+};
